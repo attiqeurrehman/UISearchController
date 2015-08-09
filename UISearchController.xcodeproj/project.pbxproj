@@ -10,10 +10,14 @@
 		3FD1C16B1B7738F2007994BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD1C16A1B7738F2007994BB /* main.m */; };
 		3FD1C16E1B7738F2007994BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD1C16D1B7738F2007994BB /* AppDelegate.m */; };
 		3FD1C1711B7738F2007994BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD1C1701B7738F2007994BB /* ViewController.m */; };
-		3FD1C1741B7738F2007994BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FD1C1721B7738F2007994BB /* Main.storyboard */; };
 		3FD1C1761B7738F2007994BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FD1C1751B7738F2007994BB /* Images.xcassets */; };
 		3FD1C1791B7738F2007994BB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FD1C1771B7738F2007994BB /* LaunchScreen.xib */; };
 		3FD1C1851B7738F2007994BB /* UISearchControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD1C1841B7738F2007994BB /* UISearchControllerTests.m */; };
+		3FD1C1911B77391E007994BB /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD1C18F1B77391E007994BB /* MainViewController.m */; };
+		3FD1C1921B77391E007994BB /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FD1C1901B77391E007994BB /* MainViewController.xib */; };
+		3FD1C1961B773BAD007994BB /* SearchResultTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD1C1941B773BAD007994BB /* SearchResultTableViewController.m */; };
+		3FD1C1971B773BAD007994BB /* SearchResultTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FD1C1951B773BAD007994BB /* SearchResultTableViewController.xib */; };
+		3FD1C1991B77420E007994BB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD1C1981B77420E007994BB /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +38,18 @@
 		3FD1C16D1B7738F2007994BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3FD1C16F1B7738F2007994BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3FD1C1701B7738F2007994BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3FD1C1731B7738F2007994BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FD1C1751B7738F2007994BB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3FD1C1781B7738F2007994BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3FD1C17E1B7738F2007994BB /* UISearchControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UISearchControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FD1C1831B7738F2007994BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FD1C1841B7738F2007994BB /* UISearchControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UISearchControllerTests.m; sourceTree = "<group>"; };
+		3FD1C18E1B77391E007994BB /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		3FD1C18F1B77391E007994BB /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		3FD1C1901B77391E007994BB /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		3FD1C1931B773BAD007994BB /* SearchResultTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultTableViewController.h; sourceTree = "<group>"; };
+		3FD1C1941B773BAD007994BB /* SearchResultTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultTableViewController.m; sourceTree = "<group>"; };
+		3FD1C1951B773BAD007994BB /* SearchResultTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchResultTableViewController.xib; sourceTree = "<group>"; };
+		3FD1C1981B77420E007994BB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FD1C1991B77420E007994BB /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +74,7 @@
 		3FD1C15C1B7738F2007994BB = {
 			isa = PBXGroup;
 			children = (
+				3FD1C1981B77420E007994BB /* MapKit.framework */,
 				3FD1C1671B7738F2007994BB /* UISearchController */,
 				3FD1C1811B7738F2007994BB /* UISearchControllerTests */,
 				3FD1C1661B7738F2007994BB /* Products */,
@@ -85,10 +97,15 @@
 				3FD1C16D1B7738F2007994BB /* AppDelegate.m */,
 				3FD1C16F1B7738F2007994BB /* ViewController.h */,
 				3FD1C1701B7738F2007994BB /* ViewController.m */,
-				3FD1C1721B7738F2007994BB /* Main.storyboard */,
 				3FD1C1751B7738F2007994BB /* Images.xcassets */,
 				3FD1C1771B7738F2007994BB /* LaunchScreen.xib */,
 				3FD1C1681B7738F2007994BB /* Supporting Files */,
+				3FD1C18E1B77391E007994BB /* MainViewController.h */,
+				3FD1C18F1B77391E007994BB /* MainViewController.m */,
+				3FD1C1901B77391E007994BB /* MainViewController.xib */,
+				3FD1C1931B773BAD007994BB /* SearchResultTableViewController.h */,
+				3FD1C1941B773BAD007994BB /* SearchResultTableViewController.m */,
+				3FD1C1951B773BAD007994BB /* SearchResultTableViewController.xib */,
 			);
 			path = UISearchController;
 			sourceTree = "<group>";
@@ -199,9 +216,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FD1C1741B7738F2007994BB /* Main.storyboard in Resources */,
+				3FD1C1971B773BAD007994BB /* SearchResultTableViewController.xib in Resources */,
 				3FD1C1791B7738F2007994BB /* LaunchScreen.xib in Resources */,
 				3FD1C1761B7738F2007994BB /* Images.xcassets in Resources */,
+				3FD1C1921B77391E007994BB /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +240,8 @@
 				3FD1C1711B7738F2007994BB /* ViewController.m in Sources */,
 				3FD1C16E1B7738F2007994BB /* AppDelegate.m in Sources */,
 				3FD1C16B1B7738F2007994BB /* main.m in Sources */,
+				3FD1C1911B77391E007994BB /* MainViewController.m in Sources */,
+				3FD1C1961B773BAD007994BB /* SearchResultTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +264,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3FD1C1721B7738F2007994BB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3FD1C1731B7738F2007994BB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3FD1C1771B7738F2007994BB /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
